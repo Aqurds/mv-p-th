@@ -9,6 +9,8 @@ body {
 #description {
     margin-bottom: 30px;
 }
+
+/* content css */
 #main {
     background: #eee;
     padding: 15px;
@@ -18,12 +20,38 @@ body {
     background: white;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
 }
-#img-div img{
-    width: 100%;
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-
-/* content css */
+#tribute-info {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#tribute-list {
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.year-font {
+    font-weight: 700;
+}
+#tribute-list li {
+    margin-bottom: 20px;
+}
+#blockquote-text {
+    font-style: italic;
+    text-align: left;
+    max-width: 550px;
+    margin: 50px auto;
+}
 
 
 /* footer css */
+#tribute-link {
+    color: #477ca7;
+}
